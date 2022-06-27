@@ -1,0 +1,90 @@
+ 1544  mkdir aws-task
+ 1545  git init
+ 1546  git remote add origin git@github.com:KopaihorodskaDaria/aws-task.git
+ 1547  npm install aws-sdk
+ 1548  ls
+ 1549  cd aws-task
+ 1550  ls
+ 1551  cd ..
+ 1552  ls
+ 1553  cd aws-task
+ 1554  npm install aws-sdk
+ 1555  ls
+ 1556  brew install aws-cli
+ 1557  brew install aws
+ 1558  brew install awscli
+ 1559  aws
+ 1560  aws version
+ 1561  aws --version
+ 1562  aws configure
+ 1563  echo "Please enter a bucket name: "; read bucket;  export MYBUCKET=$bucket
+ 1564  aws s3 mb s3://$MYBUCKET
+ 1565  echo $MYBUCKET
+ 1566  aws s3 mb s3://$MYBUCKET
+ 1567  aws s3 mb s3://www-data
+ 1568  aws s3 list
+ 1569  aws s3 ls
+ 1570  aws s3
+ 1571  aws s3 help
+ 1572  aws s3 ff
+ 1573  aws s3 mb
+ 1574  aws s3 mb s3://www
+ 1575  aws s3 mb s3://www1
+ 1576  aws s3 mb s3://www-data2
+ 1577  echo "Please enter a bucket name: "; read bucket;  export MYBUCKET=$bucket
+ 1578  aws s3 mb s3://www-data2
+ 1579  aws s3 mb s3://$MYBUCKET
+ 1580  echo $MYBUCKET
+ 1581  source ~
+ 1582  source ~/
+ 1583  aws s3 mb s3://$MYBUCKET
+ 1584  aws s3 mb s3://web-app1
+ 1585  aws s3 mb s3://web-app2
+ 1586  aws s3 mb s3://web-app3
+ 1587  echo "Please enter a bucket name: "; read bucket;  export MYBUCKET=$bucket
+ 1588  aws s3 mb s3://$MYBUCKET
+ 1589  aws s3 ls
+ 1590  aws s3 rm
+ 1591  aws s3
+ 1592  aws s3 fdf
+ 1593  aws s3 ls
+ 1594  aws s3 rm web-app2
+ 1595  aws s3 rm s3://web-app2
+ 1596  aws s3 rm s3://web-app3
+ 1597  aws s3 rm s3://www-data1
+ 1598  aws s3 rm s3://www-data2
+ 1599  echo "Please enter a bucket name: "; read bucket;  export MYBUCKET=$bucket
+ 1600  aws s3 mb s3://$MYBUCKET
+ 1601  echo "Please enter a bucket name: "; read bucket;  export MYBUCKET=$bucket
+ 1602  aws s3 mb s3://$MYBUCKET
+ 1603  aws s3 ls
+ 1604  wget https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-BuildingRedux/downloads/webapp1.zip
+ 1605  brew install wget
+ 1606  wget https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-BuildingRedux/downloads/webapp1.zip
+ 1607  unzip webapp1.zip -d webapp1
+ 1608  ls
+ 1609  rm webapp1.zip
+ 1610  ls
+ 1611  aws s3 cp webapp1 s3://task19/dragonsapp/ --recursive --ac1 public-read
+ 1612  aws s3 cp webapp1 s3://task19/dragonsapp/ --recursive --acl public-read
+ 1613  wget https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-BuildingRedux/downloads/dragon_stats_one.txt
+ 1614  aws s3 cp dragon_stats_one.txt s3://task19
+ 1615  aws s3 lf
+ 1616  aws s3 website
+ 1617  aws s3 ls s3://task19
+ 1618  aws ssm put-parameter \\n--name "dragon_data_bucket_name" \\n--type "String" \\n--overwrite \\n--value task19
+ 1619  aws ssm put-parameter \\n--name "dragon_data_file_name" \\n--type "String" \\n--overwrite \\n--value dragon_stats_one.txt
+ 1620  echo $MYBUCKET
+ 1621  ls
+ 1622  wget https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-BuildingRedux/downloads/listDragons.js
+ 1623  cat listDragons.js
+ 1624  node listDragons.js
+ 1625  nano listDragons.js
+ 1626  ls
+ 1627  cat listDragons.js
+ 1628  wget https://aws-tc-largeobjects.s3.amazonaws.com/DEV-AWS-MO-BuildingRedux/downloads/webapp2.zip
+ 1629  unzip webapp2.zip -d webapp2
+ 1630  ls
+ 1631  aws s3 cp webapp2 s3://$MYBUCKET/dragonsapp/ --recursive --acl public-read
+ 1632  rm webapp2.zip
+ 1633  ls
