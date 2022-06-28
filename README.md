@@ -1,5 +1,4 @@
-# aws-task
-Building Modern Node.js Applications on AWS
+# Building Modern Node.js Applications on AWS
 In modern cloud native application development, it’s oftentimes the goal to build out serverless architectures that are scalable, are highly available, and are fully managed. This means less operational overhead for you and your business, and more focusing on the applications and business specific projects that differentiate you in your marketplace. In this course, we will be covering how to build a modern, greenfield serverless backend on AWS. 
 
 Building brand new applications on AWS is a different task than lifting and shifting existing applications into AWS. When you have an existing application that you need to move to AWS, you might first look to using Amazon EC2 as your virtual machines, or maybe you might look into using docker containers and container hosting services like Amazon Elastic Container Service or Amazon Elastic Kubernetes Service. Those are all great application hosting options, but in most cases, they still require you to have some kind of pulse on the underlying infrastructure hosting your application. 	`
